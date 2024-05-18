@@ -8,66 +8,68 @@
   </head>
   <body>
     <main class="max-w-6xl h-screen mx-auto flex justify-center items-center">
-      <div class="w-full border-2 border-red-700 ">
+      <div class="w-full">
         <img
           src="https://yt3.googleusercontent.com/BN3tWeSx6GJcXkcieCv2Sliac4BrAhS7t8SvilZWoGGadxJ9NPyTXObV25EKq8Roi1v3Mrsy=s900-c-k-c0x00ffffff-no-rj"
           alt=""
           class="w-32 mx-auto mb-6"
         />
         <!-- bank info -->
-        <div
-          class="w-[600px] mx-auto grid grid-cols-12 border-2 gap-4 border-red-600"
-        >
+        <div class="w-[600px] mx-auto grid grid-cols-12 gap-4">
           <!-- deposite status card 1-->
-          <div class="bg-green-600 p-10 rounded-lg text-white col-span-4">
+          <div class="bg-green-600 px-8 py-5 rounded-lg text-white col-span-4">
             <h1 class="text-2xl font-medium">Diposit</h1>
-            <p class="text-5xl font-extrabold mt-5">
+            <p class="text-4xl font-extrabold mt-5">
               $<span class="" id="depositStatus">00</span>
             </p>
           </div>
           <!-- deposite status card 2-->
-          <div class="bg-orange-500 p-10 rounded-lg text-white col-span-4">
+          <div class="bg-orange-500 px-8 py-5 rounded-lg text-white col-span-4">
             <h1 class="text-2xl font-medium">Withdraw</h1>
-            <p class="text-5xl font-extrabold mt-5">
+            <p class="text-4xl font-extrabold mt-5">
               $<span class="" id="withdrawStatus">00</span>
             </p>
           </div>
           <!-- deposite status card 3-->
-          <div class="bg-sky-600 p-10 rounded-lg text-white col-span-4">
+          <div class="bg-sky-600 px-8 py-5 rounded-lg text-white col-span-4">
             <h1 class="text-2xl font-medium">Balance</h1>
-            <p class="text-5xl font-extrabold mt-5">
+            <p class="text-4xl font-extrabold mt-5">
               $<span class="" id="totalBalance">00</span>
             </p>
           </div>
           <!-- deposite status card 3-->
-          <div class="bg-green-600 p-10 rounded-lg text-white col-span-6">
+          <div class="bg-green-600 px-8 py-5 rounded-lg text-white col-span-6">
             <h1 class="text-2xl font-medium">Diposit</h1>
-           <input
-            type="text" id="inputDeposit"
-            class="mt-6 p-4 rounded-md bg-white text-black w-full outline-none shadow-md shadow-emerald-950 focus:animate-bounce"
-            placeholder="Enter Amount"
-          />
-          <button
-            class="w-full py-4 text-white text-lg font-semibold bg-indigo-600 hover:scale-105 hover:bg-indigo-800 rounded-md mt-5"
-            type="button" id="depositBtn"
-          >
-            Deposit
-          </button>
+            <input
+              type="text"
+              id="inputDeposit"
+              class="mt-6 p-4 rounded-md bg-white text-black w-full outline-none shadow-md shadow-emerald-950 focus:animate-bounce"
+              placeholder="Enter Amount"
+            />
+            <button
+              class="w-full py-4 text-white text-lg font-semibold bg-indigo-600 hover:scale-105 hover:bg-indigo-800 rounded-md mt-5"
+              type="button"
+              id="depositBtn"
+            >
+              Deposit
+            </button>
           </div>
           <!-- deposite status card 3-->
-          <div class="bg-yellow-500 p-10 rounded-lg text-white col-span-6">
+          <div class="bg-yellow-500 px-8 py-5 rounded-lg text-white col-span-6">
             <h1 class="text-2xl font-medium">Withdraw</h1>
             <input
-            type="text" id="inputWithdraw"
-            class="mt-6 p-4 rounded-md bg-white text-black w-full outline-none shadow-md shadow-emerald-950 focus:animate-bounce"
-            placeholder="Enter Amount"
-          />
-          <button
-            class="w-full py-4 text-white text-lg font-semibold bg-indigo-600 hover:scale-105 hover:bg-indigo-800 rounded-md mt-5"
-            type="button" id="withdrawBtn"
-          >
-            Withdraw
-          </button>
+              type="text"
+              id="inputWithdraw"
+              class="mt-6 p-4 rounded-md bg-white text-black w-full outline-none shadow-md shadow-emerald-950 focus:animate-bounce"
+              placeholder="Enter Amount"
+            />
+            <button
+              class="w-full py-4 text-white text-lg font-semibold bg-indigo-600 hover:scale-105 hover:bg-indigo-800 rounded-md mt-5"
+              type="button"
+              id="withdrawBtn"
+            >
+              Withdraw
+            </button>
           </div>
         </div>
       </div>

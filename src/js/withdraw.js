@@ -1,6 +1,6 @@
 document.getElementById("withdrawBtn").addEventListener("click", function () {
   const inputWithdrawElement = document.getElementById("inputWithdraw");
-  const inputWithdrawString = inputWithdrawElement.value;
+  const inputWithdrawString   = inputWithdrawElement.value;
   const inputWithdraw = parseFloat(inputWithdrawString);
 
   const withdrawStatusElement = document.getElementById("withdrawStatus");
